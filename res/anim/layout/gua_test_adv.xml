@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="@drawable/dkgray" android:layout_width="match_parent" android:layout_height="match_parent">
+    <TextView android:textSize="20sp" android:textColor="@drawable/white" android:ellipsize="marquee" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/gua_test_title" android:background="@drawable/copper_transparent" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/測驗" android:singleLine="true" android:marqueeRepeatLimit="marquee_forever" />
+    <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="horizontal" android:id="@+id/quzall" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x1" android:layout_weight="1.0">
+        <ScrollView android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="match_parent" android:layout_weight="1.0">
+            <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:id="@+id/quz" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <include layout="@layout/line" />
+                <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <TextView android:textSize="20sp" android:textColor="@drawable/white" android:id="@+id/up_gua_u" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:layout_weight="1.0" />
+                    <ImageButton android:id="@+id/eu" android:background="@drawable/yang" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="3dp" android:contentDescription="@string/desc" />
+                </LinearLayout>
+                <include layout="@layout/line" />
+                <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <TextView android:textSize="20sp" android:textColor="@drawable/white" android:id="@+id/up_gua_5" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:layout_weight="1.0" />
+                    <ImageButton android:id="@+id/e5" android:background="@drawable/yang" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="3dp" android:contentDescription="@string/desc" />
+                </LinearLayout>
+                <include layout="@layout/line" />
+                <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <TextView android:textSize="20sp" android:textColor="@drawable/white" android:id="@+id/up_gua_4" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:layout_weight="1.0" />
+                    <ImageButton android:id="@+id/e4" android:background="@drawable/yang" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="3dp" android:contentDescription="@string/desc" />
+                </LinearLayout>
+                <include layout="@layout/line" />
+                <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <TextView android:textSize="20sp" android:textColor="@drawable/white" android:id="@+id/down_gua_3" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:layout_weight="1.0" />
+                    <ImageButton android:id="@+id/e3" android:background="@drawable/yang" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="3dp" android:contentDescription="@string/desc" />
+                </LinearLayout>
+                <include layout="@layout/line" />
+                <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <TextView android:textSize="20sp" android:textColor="@drawable/white" android:id="@+id/down_gua_2" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:layout_weight="1.0" />
+                    <ImageButton android:id="@+id/e2" android:background="@drawable/yang" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="3dp" android:contentDescription="@string/desc" />
+                </LinearLayout>
+                <include layout="@layout/line" />
+                <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <TextView android:textSize="20sp" android:textColor="@drawable/white" android:id="@+id/down_gua_i" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:layout_weight="1.0" />
+                    <ImageButton android:id="@+id/ei" android:background="@drawable/yang" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="3dp" android:contentDescription="@string/desc" />
+                </LinearLayout>
+                <include layout="@layout/line" />
+            </LinearLayout>
+        </ScrollView>
+        <LinearLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="vertical" android:id="@+id/score_button_grp" android:background="@drawable/copper_transparent" android:layout_width="UNKNOWN_DATA_0x1401" android:layout_height="match_parent" android:layout_margin="5dp">
+            <TextView android:id="@+id/score_bar" android:layout_width="match_parent" android:layout_height="match_parent" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <Button android:id="@+id/leave" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/回首頁" android:layout_weight="1.0" />
+        <Button android:id="@+id/game_description" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/說明" android:layout_weight="1.0" />
+        <Button android:id="@+id/ansok" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/is_it_ans" android:layout_weight="1.0" />
+    </LinearLayout>
+    <include layout="@layout/ads" />
+</LinearLayout>

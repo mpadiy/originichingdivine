@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="@drawable/dkgray" android:layout_width="match_parent" android:layout_height="match_parent"
+    <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/ads" android:layout_width="match_parent" android:layout_height="wrap_content" />
+    <ViewFlipper android:id="@+id/myViewFlipper1" android:background="@drawable/dkgray" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="1.0" />
+    <LinearLayout android:id="@+id/etree_replace_layout" android:background="@drawable/dkgray" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="23sp" android:id="@+id/etree" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/易林" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:background="@drawable/dkgray" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <Button android:id="@+id/gua_map" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x2601" android:text="@string/gua_map" android:layout_weight="1.0" />
+        <Button android:id="@+id/deleteGua" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x2601" android:text="@string/delete" android:layout_weight="1.0" />
+        <Button android:id="@+id/searchxx" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x2601" android:text="@string/searchxx" android:layout_weight="1.0" />
+        <Button android:id="@+id/jumpto" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x2601" android:text="@string/jumpto" android:layout_weight="1.0" />
+        <EditText android:id="@+id/epage" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x2601" android:layout_weight="1.0" android:inputType="number|numberSigned|numberDecimal|numberPassword|phone" android:imeOptions="actionGo|actionSearch|actionSend|actionNext|actionDone|actionPrevious" />
+    </LinearLayout>
+    <LinearLayout android:background="@drawable/dkgray" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <Button android:id="@+id/gua_change" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x2601" android:text="@string/之卦" android:layout_weight="1.0" />
+        <Button android:id="@+id/gua_mutual" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x2601" android:text="@string/互卦" android:layout_weight="1.0" />
+        <Button android:id="@+id/gua_upsidedown" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x2601" android:text="@string/綜卦" android:layout_weight="1.0" />
+        <Button android:id="@+id/gua_exchange" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x2601" android:text="@string/錯卦" android:layout_weight="1.0" />
+        <Button android:id="@+id/leave" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x2601" android:text="@string/leave" android:layout_weight="1.0" />
+    </LinearLayout>
+</LinearLayout>

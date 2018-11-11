@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:id="@+id/gua_map_parent" android:background="@drawable/white" android:layout_width="match_parent" android:layout_height="match_parent"
+    <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/ads" android:background="@drawable/dkgray" android:layout_width="match_parent" android:layout_height="wrap_content" />
+    <LinearLayout android:background="@drawable/dkgray" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="22dp" android:textStyle="bold" android:textColor="@drawable/white" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/gua_name" android:background="@drawable/yellow_transparent" android:layout_width="match_parent" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/gua_image" android:background="@drawable/dkgray" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x1" android:layout_weight="1.0" />
+    <LinearLayout android:id="@+id/gua_gallery" android:background="@drawable/dkgray" android:layout_width="match_parent" android:layout_height="wrap_content" />
+    <LinearLayout android:orientation="horizontal" android:background="@drawable/dkgray" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <Button android:id="@+id/btn_image" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/chose_image" android:layout_weight="1.0" />
+        <Button android:id="@+id/leave" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/leave" android:layout_weight="1.0" />
+    </LinearLayout>
+</LinearLayout>

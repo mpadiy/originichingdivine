@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="@drawable/dkgray" android:layout_width="match_parent" android:layout_height="match_parent">
+    <TextView android:textSize="22sp" android:textColor="@drawable/white" android:ellipsize="marquee" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/gua_test_title" android:background="@drawable/yellow_transparent" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/測驗" android:singleLine="true" android:marqueeRepeatLimit="marquee_forever" />
+    <LinearLayout android:orientation="horizontal" android:id="@+id/quzall" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="1.0"
+        <LinearLayout android:orientation="vertical" android:id="@+id/quz" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="match_parent" android:layout_weight="1.0">
+            <TextView android:textSize="22sp" android:textColor="@drawable/white" android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/up_gua_4" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x1" android:layout_weight="1.0" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@+id/quzqua" android:layout_width="wrap_content" android:layout_height="match_parent">
+            <ImageButton android:id="@+id/eu" android:background="@drawable/yang" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="3dp" android:layout_weight="1.0" android:contentDescription="@string/desc" />
+            <ImageButton android:id="@+id/e5" android:background="@drawable/yang" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="3dp" android:layout_weight="1.0" android:contentDescription="@string/desc" />
+            <ImageButton android:id="@+id/e4" android:background="@drawable/yang" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="3dp" android:layout_weight="1.0" android:contentDescription="@string/desc" />
+            <include layout="@layout/line" />
+            <ImageButton android:id="@+id/e3" android:background="@drawable/yang" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="3dp" android:layout_weight="1.0" android:contentDescription="@string/desc" />
+            <ImageButton android:id="@+id/e2" android:background="@drawable/yang" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="3dp" android:layout_weight="1.0" android:contentDescription="@string/desc" />
+            <ImageButton android:id="@+id/ei" android:background="@drawable/yang" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="3dp" android:layout_weight="1.0" android:contentDescription="@string/desc" />
+        </LinearLayout>
+        <LinearLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="vertical" android:id="@+id/score_button_grp" android:background="@drawable/copper_transparent" android:layout_width="UNKNOWN_DATA_0x1401" android:layout_height="match_parent" android:layout_margin="5dp">
+            <TextView android:id="@+id/score_bar" android:layout_width="match_parent" android:layout_height="match_parent" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <Button android:id="@+id/leave" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/回首頁" android:layout_weight="1.0" />
+        <Button android:id="@+id/game_description" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/說明" android:layout_weight="1.0" />
+        <Button android:id="@+id/ansok" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/is_it_ans" android:layout_weight="1.0" />
+    </LinearLayout>
+    <include layout="@layout/ads" />
+</LinearLayout>

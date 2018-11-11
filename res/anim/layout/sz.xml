@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="@drawable/gen_process" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ViewFlipper android:id="@+id/myViewFlipperSZ" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x1" android:layout_weight="1.0">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="24sp" android:textColor="@drawable/flora_red" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/繫辭上" />
+            <ScrollView android:orientation="vertical" android:id="@+id/svsz1" android:layout_width="match_parent" android:layout_height="match_parent">
+                <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <TextView android:textSize="22sp" android:textColor="@drawable/flora_red" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:background="@drawable/copper_transparent" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/chap1" />
+                    <TextView android:textSize="22sp" android:textColor="@drawable/white" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/sz1u" />
+                    <include layout="@layout/line" />
+                    <TextView android:textSize="22sp" android:textColor="@drawable/flora_red" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:background="@drawable/copper_transparent" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/chap2" />
+                    <TextView android:textSize="22sp" android:textColor="@drawable/white" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/sz2u" />
+                    <include layout="@layout/line" />
+                    <TextView android:textSize="22sp" android:textColor="@drawable/flora_red" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:background="@drawable/copper_transparent" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/chap3" />
+                    <TextView android:textSize="22sp" android:textColor="@drawable/white" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/sz3u" />
+                    <include layout="@layout/line" />
+                    <TextView android:textSize="22sp" android:textColor="@drawable/flora_red" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:background="@drawable/copper_transparent" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/chap4" />
+                    <TextView android:textSize="22sp" android:textColor="@drawable/white" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/sz4u" />
+                    <include layout="@layout/line" />
+                    <TextView android:textSize="22sp" android:textColor="@drawable/flora_red" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:background="@drawable/copper_transparent" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/chap5" />
+                    <TextView android:textSize="22sp" android:textColor="@drawable/white" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/sz5u" />
+                    <include layout="@layout/line" />
+                    <TextView android:textSize="22sp" android:textColor="@drawable/flora_red" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:background="@drawable/copper_transparent" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/chap6" />
+                    <TextView android:textSize="22sp" android:textColor="@drawable/white" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/sz6u" />
+                    <include layout="@layout/line" />
+                    <TextView android:textSize="22sp" android:textColor="@drawable/flora_red" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:background="@drawable/copper_transparent" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/chap7" />
+                    <TextView android:textSize="22sp" android:textColor="@drawable/white" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/sz7u" />
+                    <include layout="@layout/line" />
+                    <TextView android:textSize="22sp" android:textColor="@drawable/flora_red" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:background="@drawable/copper_transparent" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/chap8" />
+                    <TextView android:textSize="22sp" android:textColor="@drawable/white" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/sz8u" />
+                    <include layout="@layout/line" />
+                    <TextView android:textSize="22sp" android:textColor="@drawable/flora_red" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:background="@drawable/copper_transparent" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/chap9" />
+                    <TextView android:textSize="22sp" android:textColor="@drawable/white" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/sz9u" />
+                    <include layout="@layout/line" />
+                    <TextView android:textSize="22sp" android:textColor="@drawable/flora_red" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:background="@drawable/copper_transparent" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/chap10" />
+                    <TextView android:textSize="22sp" android:textColor="@drawable/white" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/sz10u" />
+                    <include layout="@layout/line" />
+                    <TextView android:textSize="22sp" android:textColor="@drawable/flora_red" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:background="@drawable/copper_transparent" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/chap11" />
+                    <TextView android:textSize="22sp" android:textColor="@drawable/white" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/sz11u" />
+                    <include layout="@layout/line" />
+                    <TextView android:textSize="22sp" android:textColor="@drawable/flora_red" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:background="@drawable/copper_transparent" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/chap12" />
+                    <TextView android:textSize="22sp" android:textColor="@drawable/white" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/sz12u" />
+                </LinearLayout>
+            </ScrollView>
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="24sp" android:textColor="@drawable/flora_red" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/繫辭下" />
+            <ScrollView android:orientation="vertical" android:id="@+id/svsz2" android:layout_width="match_parent" android:layout_height="match_parent">
+                <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <TextView android:textSize="22sp" android:textColor="@drawable/flora_red" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:background="@drawable/copper_transparent" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/chap1" />
+                    <TextView android:textSize="22sp" android:textColor="@drawable/white" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/sz1d" />
+                    <include layout="@layout/line" />
+                    <TextView android:textSize="22sp" android:textColor="@drawable/flora_red" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:background="@drawable/copper_transparent" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/chap2" />
+                    <TextView android:textSize="22sp" android:textColor="@drawable/white" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/sz2d" />
+                    <include layout="@layout/line" />
+                    <TextView android:textSize="22sp" android:textColor="@drawable/flora_red" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:background="@drawable/copper_transparent" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/chap3" />
+                    <TextView android:textSize="22sp" android:textColor="@drawable/white" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/sz3d" />
+                    <include layout="@layout/line" />
+                    <TextView android:textSize="22sp" android:textColor="@drawable/flora_red" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:background="@drawable/copper_transparent" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/chap4" />
+                    <TextView android:textSize="22sp" android:textColor="@drawable/white" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/sz4d" />
+                    <include layout="@layout/line" />
+                    <TextView android:textSize="22sp" android:textColor="@drawable/flora_red" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:background="@drawable/copper_transparent" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/chap5" />
+                    <TextView android:textSize="22sp" android:textColor="@drawable/white" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/sz5d" />
+                    <include layout="@layout/line" />
+                    <TextView android:textSize="22sp" android:textColor="@drawable/flora_red" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:background="@drawable/copper_transparent" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/chap6" />
+                    <TextView android:textSize="22sp" android:textColor="@drawable/white" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/sz6d" />
+                    <include layout="@layout/line" />
+                    <TextView android:textSize="22sp" android:textColor="@drawable/flora_red" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:background="@drawable/copper_transparent" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/chap7" />
+                    <TextView android:textSize="22sp" android:textColor="@drawable/white" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/sz7d" />
+                    <include layout="@layout/line" />
+                    <TextView android:textSize="22sp" android:textColor="@drawable/flora_red" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:background="@drawable/copper_transparent" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/chap8" />
+                    <TextView android:textSize="22sp" android:textColor="@drawable/white" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/sz8d" />
+                    <include layout="@layout/line" />
+                    <TextView android:textSize="22sp" android:textColor="@drawable/flora_red" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:background="@drawable/copper_transparent" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/chap9" />
+                    <TextView android:textSize="22sp" android:textColor="@drawable/white" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/sz9d" />
+                </LinearLayout>
+            </ScrollView>
+        </LinearLayout>
+    </ViewFlipper>
+    <include layout="@layout/line" />
+    <include layout="@layout/ads" />
+</LinearLayout>
