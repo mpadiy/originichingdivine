@@ -1,2 +1,2 @@
 # originichingdivine
-from God
+from others
